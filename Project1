@@ -123,12 +123,12 @@ void array_war(int *arr1, int size1, int *arr2, int size2) {
 
 int main() {
     int size;
-    cout << "Enter the size of the array: ";
+    cout << "Enter array size ";
     cin >> size;
 
     while (size < 1 || size > 52) {
-        cout << "Error: Invalid size entered.\n";
-        cout << "Enter the size of the array: ";
+        cout << "Error.\n";
+        cout << "Enter";
         cin >> size;
     }
 
